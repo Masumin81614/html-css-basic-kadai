@@ -31,7 +31,7 @@ footer a:visited{color:rgb(193, 234, 251);}
 footer a:hover{color:rgb(245, 178, 168);}
 
 @media screen and (max-width:768px) {
-    #parent{display: block;}
+    #parent{display: flex; flex-direction: column;}
     .contents h2 {font-size: 30px;}
     .contents p{font-size: 25px;}
 } 
